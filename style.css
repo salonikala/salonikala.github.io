@@ -1,0 +1,291 @@
+.left {
+    width: 34%;
+    background-color: black;
+    float: left;
+    height: 100vh;
+    position: fixed;
+}
+
+.right {
+    width: 77%;
+    float: right;
+}
+
+#head {
+    background-color:rgb(34, 33, 33);
+    z-index: 100;
+    padding: 4px;
+}
+
+.right .banner {
+    background-image: url(./assets/images/content.jpg);
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.about1 {
+    float: right;
+}
+
+.card1 {
+    display: flex;
+}
+
+.li1 {
+    padding: 2px;
+    list-style: none;
+}
+
+.A1 {
+    text-decoration: none;
+    color: rgb(4, 4, 70);
+    font-size: 1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.s1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.D1 {
+    text-align: center;
+    margin-top: 140px;
+}
+
+.s1 {
+    color: rgb(4, 4, 70);
+    font-size: 1.4rem;
+}
+
+.A2 {
+    font-size: 2rem;
+    text-decoration: none;
+    color:rgb(4, 4, 70);
+}
+
+.A2:hover {
+    color: rgb(98, 96, 96);
+}
+
+.photo {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.icon {
+    font-size: 1.4rem;
+    color: rgb(4, 4, 70);
+    background-color: gray;
+    padding: 10px;
+    border-radius: 50%;
+    padding-bottom: 5px;
+    padding-top: 3px;
+}
+
+.icon:hover {
+    color: grey;
+    background-color: black;
+}
+
+#coll:hover {
+    box-shadow: 1px 1px 3px 3px lightgray;
+    transition: 2s;
+}
+
+#coll1:hover {
+    box-shadow: 1px 1px 3px 3px lightgray;
+    transition: 2s;
+}
+
+#one {
+    font-size: 1.2rem;
+    color: lightgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 14px;
+}
+#one:hover{
+    color:  rgb(222, 151, 18);
+    transform: translateX(10px);
+    transition: 0.7s;
+}
+#one i:hover {
+    color: rgb(222, 151, 18);
+}
+.image {
+    border-radius: 100%;
+    height: 65px;
+    width: 100px;
+    border: 5px solid lightgray;
+}
+
+.H2 {
+    text-decoration: none;
+    font-size: 1.6rem;
+    padding-right: 7px;
+    color: lightgray;
+}
+.H2 i:hover {
+    transition: 0.8s;
+    transform: rotateY(360deg);
+    color:rgb(222, 151, 18);
+}
+input:hover {
+    background-color: lightblue;
+}
+
+.h3 {
+    color: lightgray;
+    font-size: 1.3rem;
+}
+h1 {
+    color: rgb(4, 4, 70);
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3 {
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 5px;
+}
+h4{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.div {
+    margin-left:80px;
+}
+
+.bottom {
+    list-style: none;
+}
+
+.para1:hover {
+    color: brown;
+    transform: translateX(10px);
+    transition: 0.7s;
+}
+
+h5:hover {
+    color: rgb(4, 4, 70);
+}
+
+#HE {
+    position: absolute;
+    top: 55%;
+    left: 52%;
+    color: rgb(241, 235, 235);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#AD {
+    position: absolute;
+    top: 64%;
+    left: 46%;
+    font-size: 1.3rem;
+    color: rgb(241, 235, 235);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.ima {
+    height: 400px;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.car {
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    border: 5px solid lightgray;
+    text-align: center;
+}
+.A1:hover{
+    color:rgb(222, 151, 18); 
+}
+#header_left{
+    width: 23%;
+}
+.IMG{
+    width: 100%;
+    height: auto;
+}
+#content{
+    width:100%;     
+    border: 1px solid white;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+#content .IMG{
+    width: 100%;
+    transition-duration: 0.5s;
+}
+.IMG:hover{
+    transform: scale(3);
+}
+.H5{
+    color: rgb(20, 19, 19);
+    padding: 4px;
+    font-size: 1.3rem;
+}
+.H5:hover{
+    color:brown;
+}
+@media screen and (max-width:768px) {
+    .main {
+        width: 100%;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    #header_left {
+        display: none;
+    }
+
+    .banner {
+        width: 100%;
+    }
+
+    #HE {
+        left: 40%;
+        font-size: 1.2rem;
+    }
+
+    #AD {
+        left: 16%;
+        font-size: 1rem;
+        top: 60%
+    }
+
+    #coll {
+        box-shadow: 2px 2px 2px 2px lightgrey;
+    }
+
+    #coll1 {
+        margin-top: 20px;
+        box-shadow: 2px 2px 3px 3px lightgrey;
+    }
+
+    .ima {
+        height: auto;
+        width: 100%;
+    }
+
+    #strong {
+        display: none;
+    }
+
+    #search {
+        display: none;
+    }
+    .user{
+        padding: 20px;
+    }
+}

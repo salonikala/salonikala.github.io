@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <div class="main">
+        <header class="position-fixed top-0 w-100 d-lg-none" id="head">
+            <div class="row">
+                <div class="col-6 mt-1 text-white">
+                    <p>LOGO</p>
+                </div>
+                <div class="col-6 ">
+                    <button class="btn btn-outline-dark d-lg-none" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcan"><i class="fas fa-bars"
+                            style="margin-left:150px; color: white;"></i></button>
+                </div>
+            </div>
+        </header>
+        <div class="offcanvas offcanvas-start w-100 bg-dark" id="offcan">
+            <div class="offcanvas-header">
+                <h1 class="offcanvas-title"></h1>
+                <button class="btn-close bg-light" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body" style="border: 1px solid white;  ">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="./index.html" class="nav-link" id="one"><i
+                                class="fas fa-building"></i> Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link" id="one"> <i class="fas fa-address-card"></i>
+                            About</a>
+                    </li>
+                    <li class="nav-item"> <a href="#portfolio" class="nav-link" id="one"> <i
+                                class="fas fa-file-word"></i>
+                            Projects</a> </li>
+                    <li class="nav-item"> <a href="#services" class="nav-link" id="one"> <i class="fas fa-id-card"></i>
+                            Services</a> </li>
+                    <li class="nav-item"> <a href="#contact" class="nav-link" id="one"> <i class="fas fa-phone"></i>
+                            Contact</a>
+                    </li>
+                </ul>
+                </ul>
+            </div>
+        </div>
+        <div class="left" id="header_left">
+            <div class="text-center mt-5">
+                <img src="./assets/images/image23ps.jpg" class="image" alt="">
+            </div>
+            <h3 class="text-center mt-3 h3">SALONI KALA</h3>
+            <div class="div">
+                <ul class="d-flex">
+                    <li class="bottom"> <a href="#" class="H2"><i class="fab fa-facebook-square"></i></a>
+                    </li>
+                    <li class="bottom"> <a href="#" class="H2"><i class="fab fa-instagram-square"></i></a>
+                    </li>
+                    <li class="bottom"> <a href="#" class="H2"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="nav d-inline-block nav-fill">
+                    <li class="nav-item"><a href="./index.html" class="nav-link" id="one"><i
+                                class="fas fa-building"></i> Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link" id="one"> <i class="fas fa-address-card"></i>
+                            About</a>
+                    </li>
+                    <li class="nav-item"> <a href="#portfolio" class="nav-link" id="one"> <i
+                                class="fas fa-file-word"></i>
+                            Projects</a> </li>
+                    <li class="nav-item"> <a href="#services" class="nav-link" id="one"> <i class="fas fa-id-card"></i>
+                            Services</a> </li>
+                    <li class="nav-item"> <a href="#contact" class="nav-link" id="one"> <i class="fas fa-phone"></i>
+                            Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="D1">
+                <strong class="text-warning">DesignedBy <span
+                        style="color: darkgray; font-size: 1.2rem;">SaloniKala</span></strong>
+            </div>
+        </div>
+        <div class="right">
+
+            <div class="banner"></div>
+            <h1 id="HE">SALONI KALA </h1>
+            <p id="AD">WEB DESIGNER | PROGRAMER | ARTIST</p>
+            <div class="about ms-3">
+                <h1 style="border-bottom:2px solid grey; width:150px; text-align: center;">ABOUT</h1>
+                <p
+                    style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;">
+                    HELLO, welcome to my website. I'm an aspired web designer and I'm just starting out! i have
+                    graduated
+                    from P.G Collage (KOTDWARA). I love coding.</p>
+            </div>
+            <!---about--->
+            <div class="container mt-5" id="about">
+                <div class="row">
+                    <div class="col-12 col-lg-4 col-sm-12 col-md-12" data-aos="fade-up">
+                        <img src="./assets/images/image25.jpg" class="ima" alt="">
+                    </div>
+                    <div class="col-12 col-lg-7 col-sm-12 col-md-12" data-aos="fade-up">
+                        <h2> Html/CSS & web designer</h2>
+                        <p
+                            style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;">
+                            I have been studying web designing and programming after 7 months and it is the field that
+                            excites me the most , I want to be a successful web designer in near future and i am
+                            training myself for this goals. </p>
+                        <div class="row">
+                            <div class="col-12 col-lg-6 col-sm-12 col-md-12">
+                                <ul>
+                                    <li class="li1"> <a href="#" class="A1"> <i class="fas fa-chevron-right"></i>
+                                            Name</a> : saloni </li>
+                                    <li class="li1"> <a href="#" class="A1"> <i class="fas fa-chevron-right"></i>
+                                            Address </a> : nawada(Delhi)</li>
+                                    <li class="li1"> <a href="#" class="A1"> <i class="fas fa-chevron-right"></i>
+                                            Website </a> : www.example.com</li>
+                                    <li class="li1"> <a href="#" class="A1"> <i class="fas fa-chevron-right"></i> Phone
+                                        </a> : +01 234 567 89</li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-lg-6 col-sm-12 col-md-12">
+                                <ul>
+                                    <li class="li1"> <a href="#" class="A1"> <i class="fas fa-chevron-right"></i>
+                                            Age</a> : 22 </li>
+                                    <li class="li1"> <a href="#" class="A1"> <i
+                                                class="fas fa-chevron-right"></i>Email</a> : saloni.kala.2@gmail.com
+                                    </li>
+                                    <li class="li1"> <a href="#" class="A1"> <i class="fas fa-chevron-right"></i> Birth
+                                            date</a> : 2 december 2000</li>
+                                    <li class="li1"> <a href="#" class="A1"> <i class="fas fa-chevron-right"></i> Degree
+                                        </a> : bechalour of science</li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <p
+                                    style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;">
+                                    I like coding and learning new tips and tricks about scripting languages. I code
+                                    create small web projects for keeping myself , I used to try in my spare time. and I
+                                    would like to work with new people band would love to create new experiecnce and
+                                    memories.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---facts--->
+            <div class="container mt-5 bg-light pb-5" id="about">
+                <div class="row ms-2">
+                    <h1 style="border-bottom:2px solid grey; width:120px; text-align: center;">Facts</h1>
+                    <p class="mt-3"
+                        style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;">
+                        i am just a fresher i have been in this field for seven months i am doing internship and
+                        learning work i have made 4 small web projects by myself and i want to do my work more properly and i
+                        hope i can Am.</p>
+                    <div class="row mt-5">
+                        <div class="col-12 col-lg-4 col-sm-12 col-md-12 text-center user" data-aos="fade-up">
+                            <a href="" class="A2"><i class="fas fa-certificate"></i></a>
+                            <h2>10+</h2>
+                            <span class="s1">Certificate</span>
+
+                        </div>
+                        <div class="col-12 col-lg-4 col-sm-12 col-md-12 text-center user" data-aos="fade-up">
+                            <a href="" class="A2"> <i class="fas fa-book"></i></a>
+                            <h2>4+</h2>
+                            <span class="s1">Project</span>
+
+                        </div>
+                        <div class="col-12 col-lg-4 col-sm-12 col-md-12 text-center user" data-aos="fade-up">
+                            <a href="" class="A2"><i class="fas fa-award"></i></a>
+                            <h2>7+</h2>
+                            <span class="s1">Award</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--portfolio-->
+            <div class="container mt-5" id="portfolio">
+                <h1 style="border-bottom:2px solid grey; width:230px; text-align: center;">Projects</h1>
+                <div class="row mt-5">
+                    <div class="col-6 col-lg-3 col-md-6 col-sm-6 text-center alert-dark"
+                    style="box-shadow: 2px 2px 2px 2px black; padding-bottom:20px; padding-top: 10px;" data-aos="fade-up">
+                        <div id="content">
+                            <img src="./assets/images/Screenshot (2).png" class="IMG" alt="">
+                        </div>
+                        <h4>Lexequipe</h4>
+                        <a href="https://salonikala.github.io/lexequipe/" target="_blank"><button
+                                class="btn btn-warning">Live Demo</button></a>
+                    </div>
+                    <div class="col-6 col-lg-3 col-md-6 col-sm-6 text-center alert-dark"
+                        style="box-shadow: 2px 2px 2px 2px black; padding-bottom:20px; padding-top:10px;"
+                        data-aos="fade-up">
+                        <div id="content">
+                            <img src="./assets/images/Screenshot (3).png" class="IMG" alt="">
+                        </div>
+                        <h4>Gecko</h4>
+                        <a href="https://salonikala.github.io/gecko/" target="_blank"><button
+                                class="btn btn-warning">Live Demo</button></a>
+                    </div>
+                    <div class="col-6 col-lg-3 col-md-6 col-sm-6 text-center alert-dark"
+                        style="box-shadow: 2px 2px 2px 2px black; padding-bottom:20px; padding-top:10px;"
+                        data-aos="fade-up">
+                        <div id="content">
+                            <img src="./assets/images/Screenshot (4).png" class="IMG" alt="">
+                        </div>
+                        <h4>My Blog</h4>
+                        <a href="https://salonikala.github.io/blog/" target="_blank"><button
+                                class="btn btn-warning">Live Demo</button></a>
+                    </div>
+                    <div class="col-6 col-lg-3 col-md-6 col-sm-6 text-center alert-dark"
+                        style="box-shadow: 2px 2px 2px 2px black; padding-bottom:20px; padding-top:10px;"
+                        data-aos="fade-up">
+                        <div id="content">
+                            <img src="./assets/images/Screenshot (6).png" class="IMG" alt="">
+                        </div>
+                        <h4>My Template</h4>
+                        <a href="https://salonikala.github.io/startup/" target="_blank"><button
+                                class="btn btn-warning">Live Demo</button></a>
+                    </div>
+                </div>
+            </div>
+            <!---skill--->
+            <div class="container-fluid alert-dark mt-5">
+                <h1 class="text-center" style="border-bottom:2px solid grey; width:120px;">Skill</h1>
+                <p class="text-dark mt-4"
+                    style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;">
+                    I have some basic skill as if html, css, javascript, jquery, bootstrap and
+                    photoshop.this skill are create in responsive website, </p>
+                <div class="row mt-3">
+                    <div class="col-12 col-lg-6 col-sm-12 col-md-12 pb-3">
+                        <p class="graph"><a href="" class="photo"> <i class="fas fa-code"
+                                    style="font-size: 1.2rem;"></i>
+                                html</a>
+                        </p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark"
+                                style="width:95% ;">95%</div>
+                        </div>
+                        <br>
+                        <p class="graph"> <a href="" class="photo"><i class="fas fa-pen" style="font-size: 1.2rem;"></i>
+                                css</a> </p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark"
+                                style="width: 85%;">85%</div>
+                        </div>
+                        <br>
+                        <p class="graph"> <a href="" class="photo"><i class="fas fa-image"
+                                    style="color: black; font-size: 1.2rem;"></i>
+                                bootstrap</a>
+                        </p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark"
+                                style="width: 75%;">75%</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 col-sm-12 col-md-12 pb-3">
+                        <p class="graph"><a href="" class="photo"><i class="fas fa-file-code"
+                                    style="color: black; font-size: 1.2rem;"></i>
+                                javascript</a>
+                        </p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark"
+                                style="width:70% ;">70%</div>
+                        </div>
+                        <br>
+                        <p class="graph"> <a href="" class="photo"><i class="fas fa-desktop"
+                                    style="color: black; font-size: 1.2rem;"></i>
+                                jquery</a> </p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark "
+                                style="width:87% ;">87%</div>
+                        </div>
+                        <br>
+                        <p class="graph"> <a href="" class="photo"><i class="fas fa-image"
+                                    style="color: black; font-size: 1.2rem;"></i>
+                                photoshop</a>
+                        </p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark "
+                                style="width: 79%;">79%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---testimonial--->
+            <div class="container mt-5 bg-light pb-5">
+                <h1 class=" text-center" style="border-bottom:2px solid grey; width:200px;">Testimonial</h1>
+                <p
+                    style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;">
+                    I am a  web designer as well as programmer and artist, I love coding, I have gained a
+                    lot of knowledge in this, my teachers have helped me a lot and I am grateful to them and I know
+                    about new new computer languages I am very fond of knowing and learning them.</p>
+                <div class="carousel slide" id="oneness" data-bs-ride="carousel">
+                    <div class="carousel-inner text-center">
+                        <div class="carousel-item active">
+                            <img src="./assets/images/image24.jpg" alt="" class="car">
+                            <h4>saloni</h4>
+                            <span class="text-warning"
+                                style="font-size:1.4rem ;font-family:Georgia, 'Times New Roman', Times, serif;">web
+                                designer</span>
+
+                            <p class="text-center"
+                                style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;">
+                                HELLO, welcome to my website. I'm an aspired web designer and I'm
+                                just starting out! i have graduated from P.G Collage (KOTDWARA). I love coding.I like
+                                coding and learning new tips and tricks about scripting languages. I code create small
+                                web projects for keeping myself , I used to try in my spare time. and I would like to
+                                work with new people band would love to create new experiecnce and memories.</p>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/content3.jpg" alt="" class="car">
+                            <h4>saloni</h4>
+                            <span class="text-warning"
+                                style="font-size:1.4rem ;  font-family:Georgia, 'Times New Roman', Times, serif;">Artist</span>
+
+                            <p class="text-center"
+                                style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;">
+                                HELLO, welcome to my website. I'm an aspired Artist and I'm
+                                just starting out! i have graduated from P.G Collage (KOTDWARA). I love coding.I like
+                                coding and learning new tips and tricks about scripting languages. I code create small
+                                web projects for keeping myself , I used to try in my spare time. and I would like to
+                                work with new people band would love to create new experiecnce and memories.</p>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/content1.jpg" alt="" class="car">
+                            <h4>saloni</h4>
+                            <span class="text-warning"
+                                style="font-size:1.4rem ;  font-family:Georgia, 'Times New Roman', Times, serif;">programer
+                            </span>
+                            <p class="text-center"
+                                style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;">
+                                HELLO, welcome to my website. I'm an aspired programer and I'm
+                                just starting out! i have graduated from P.G Collage (KOTDWARA). I love coding.I like
+                                coding and learning new tips and tricks about scripting languages. I code create small
+                                web projects for keeping myself , I used to try in my spare time. and I would like to
+                                work with new people band would love to create new experiecnce and memories.</p>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" data-bs-target="#oneness" data-bs-slide="prev">
+
+                    </button>
+                    <button class="carousel-control-next" data-bs-target="#oneness" data-bs-slide="next">
+
+                    </button>
+                </div>
+
+
+
+            </div>
+            <!---services--->
+            <div class="container mt-5 alert-dark" id="services">
+                <h1 class=" text-center" style="border-bottom:2px solid grey; width:200px;">Services</h1>
+                <p class="mt-5 text-dark"
+                    style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;">
+                   To make a website attractive, we need to work that foot with full
+                    dedication and hard work.And I am learning to do this work and will continue to learn something new.
+                    I hope I can improve my career in this field. </p>
+                <div class="row mt-5 ps-3">
+                    <div class="col-12 col-lg-4 col-sm-12 col-md-6" data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom">
+                        <a href="" class="icon"><i class="fas fa-desktop"></i></a>
+                        <h3>Unique design</h3>
+                        <p
+                            style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;">
+                            all i've learned so far, my experience says that we can give a unique design to the website
+                            and how can a website be made beautiful and attractive, I try to do my work well in whatever
+                            I have learned.</p>
+
+                    </div>
+                    <div class="col-12 col-lg-4 col-sm-12 col-md-6" data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom">
+                        <a href="" class="icon"><i class="fas fa-user"></i></a>
+                        <h3>Different layout</h3>
+                        <p
+                            style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;">
+                            all i've learned so far my experience says that we can give a diffrenet layouts to the
+                            website and how can a website be made beautiful and attractive, I try to do my work well in
+                            whatever I have learned.
+                        </p>
+
+                    </div>
+                    <div class="col-12 col-lg-4 col-sm-12 col-md-6" data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom">
+                        <a href="" class="icon"><i class="fas fa-comment"></i></a>
+                        <h3>Make it simple </h3>
+                        <p
+                            style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;">
+                            all i've learned so far my experience says that we can give a make it simple to the website
+                            and how can a website be made beautiful and attractive, I try to do my work well in whatever
+                            I have learned.</p>
+
+                    </div>
+
+
+                    <div class="col-12 col-lg-4 col-sm-12 col-md-6" data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom">
+                        <a href="" class="icon"><i class="fas fa-photo-video"></i></a>
+                        <h3>Responsiveness</h3>
+                        <p
+                            style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;">
+                            all i've learned so far my experience says that we can give a responsive to the website and
+                            how can a website be made beautiful and attractive, I try to do my work well in whatever I
+                            have learned.</p>
+
+                    </div>
+                    <div class="col-12 col-lg-4 col-sm-12 col-md-6" data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom">
+                        <a href="" class="icon"><i class="far fa-building"></i></a>
+                        <h3>Testing for perfection</h3>
+                        <p
+                            style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;">
+                            all i've learned so far my experience says that we can give a testing to the
+                            website and how can a website be made beautiful and attractive, I try to do my work well in
+                            whatever I have learned.</p>
+                    </div>
+                    <div class="col-12 col-lg-4 col-sm-12 col-md-6" data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-bottom">
+                        <a href="" class="icon"><i class="fas fa-cog"></i></a>
+                        <h3>Advance options</h3>
+                        <p
+                            style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;">
+                            all i've learned so far my experience says that we can give a advance option to the website
+                            and how can a website be made beautiful and attractive, I try to do my work well in whatever
+                            I have learned. .</p>
+                    </div>
+                </div>
+            </div>
+            <!---contact--->
+            <div class="container mt-5" style="height:800px ;" id="contact">
+                <h1 class="text-center" style="border-bottom:2px solid grey; width:200px;">Contact</h1>
+                <p class="mt-5"
+                    style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;">
+                    If you have any suggestion, project for me or even you want to say "hello" , please feel
+                    free to fill out the from and i will replay you shortly. </p>
+                <div class="row mt-5 ps-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300"
+                    data-aos-offset="0">
+                    <div class="col-12 col-lg-5 col-sm-12 col-md-12 pt-3" id="coll">
+                        <h5> <i class="fas fa-map-marker"></i> Location</h5>
+                        <p class="para1">Nawada, UTTAMNAGAR, Delhi india</p>
+                        <div class="row mt-3">
+                            <div class="col-12 col-lg-5 col-sm-12 col-md-12">
+                                <h5> <i class="far fa-envelope"></i> Email :</h5>
+                                <p class="para1">saloni.kala.2@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-lg-5 col-sm-12 col-md-12">
+                                <h5> <i class="fas fa-phone"></i> Call :</h5>
+                                <p class="para1">9634301020</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-lg-6 col-sm-12 col-md-12">
+                                <h5><i class="fas fa-user"></i> social profile:</h5>
+                                <div class="para1">
+                                    <ul class="d-flex">
+                                        <li class="bottom"> <a href="#" class="H5"><i
+                                                    class="fab fa-facebook-square"></i></a>
+                                        </li>
+                                        <li class="bottom"> <a href="#" class="H5"><i
+                                                    class="fab fa-instagram-square"></i></a>
+                                        </li>
+                                        <li class="bottom"> <a href="#" class="H5"><i class="fab fa-linkedin"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-lg-5 col-sm-12 col-md-12">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14009.53559320575!2d77.0449214!3d28.6182542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1662536579124!5m2!1sen!2sin"
+                                    width="320" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-7 col-sm-12 col-md-12" id="coll1">
+                        <div class="row mt-3">
+                            <div class="col-12 col-lg-6 col-sm-12 col-md-12">
+                                <div class="form-floating">
+                                    <input type="text" id="fname" class="form-control bg-light"
+                                        placeholder="first name"><br>
+                                    <label for="fname" class="form-label">first name</label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 col-sm-12 col-md-12">
+                                <div class="form-floating">
+                                    <input type="text" id="lname" class="form-control bg-light"
+                                        placeholder="last name"><br>
+                                    <label for="lname" class="form-label">last name</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-lg-12 col-sm-12 col-md-12">
+                                <div class="form-floating">
+                                    <input type="text" id="sub" class="form-control bg-light" placeholder="Subject"><br>
+                                    <label for="sub" class="form-label">Subject</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-lg-12 col-sm-12 col-md-12">
+                                <div class="from-floating">
+                                    <textarea name="Message" id="about" class="form-control bg-light"
+                                        placeholder="Message" cols="30" rows="10"></textarea>
+                                    <label for="about" class="form-label"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center pb-3">
+                            <button class="btn btn-primary"> <i class="fas fa-location-arrow"></i>send message</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./assets/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
