@@ -27,6 +27,24 @@
     margin-left: auto;
     margin-right: 0;
 }
+.orange {
+    background: linear-gradient(137deg, #ffffff, #b8ceff, #004fff, #ffffff);
+    background-size: 240% 240%;
+    animation: gradient-animation 5s ease infinite;
+}
+.orange {
+    content: "";
+    width: 80px;
+    height: 80px;
+    margin-left: -30px;
+    margin-top: -30px;
+    margin-right: 5px;
+    background-color: #020073;
+    border-radius: 5px;
+    z-index: -1;
+    grid-row: 1;
+    grid-column: 1;
+}
 @keyframes app{
     99% {
     opacity: 0;
